@@ -1,11 +1,11 @@
 === Frutiger Aero ===
 
 Theme Name: Frutiger Aero
-Theme URI: https://github.com/saint-hilaire/frutiger-aero
-Author: Brian St. Hilaire
-Author URI: https://sainthilarious.dev
+Theme URI: https://github.com/belal-i/frutiger-aero
+Author: Belal Ibrahim
+Author URI: https://github.com/belal-i
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.1.2
+Version: 1.1.3-dev
 Tags: one-column
 Requires at least: 4.5
 Tested up to: 6.7
@@ -80,7 +80,7 @@ Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpac
 
 == Copyright ==
 
-Frutiger Aero WordPress Theme, Copyright 2024 Brian St. Hilaire
+Frutiger Aero WordPress Theme, Copyright 2024 - 2025 Belal Ibrahim
 Frutiger Aero is distributed under the terms of the GNU GPLv2.
 
 This program is free software: you can redistribute it and/or modify
