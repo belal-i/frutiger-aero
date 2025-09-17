@@ -165,6 +165,19 @@ function frutiger_aero_custom_background() {
 }
 add_action( 'wp_enqueue_scripts', 'frutiger_aero_custom_background' );
 
+function frutiger_aero_widgets_init() {
+	register_sidebar( array(
+		'id'            => 'sidebar-1',
+		'name'          => __( 'Sidebar', 'frutiger-aero'),
+		'description'   => __( 'Sidebar' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'frutiger_aero_widgets_init' );
+
 /**
  * Implement the Custom Header feature.
  */

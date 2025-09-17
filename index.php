@@ -14,7 +14,8 @@
 
 get_header();
 ?>
-
+<div class="content-wrapper">
+	<?php get_sidebar( 'sidebar-1' ); ?>
 	<main id="primary" class="site-main">
 
 		<?php
@@ -51,6 +52,7 @@ get_header();
 		?>
 
 	</main><!-- #main -->
+</div>
 
 <?php
 get_footer();
