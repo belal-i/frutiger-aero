@@ -4,8 +4,8 @@ Theme URI: https://github.com/belal-i/frutiger-aero
 Author: Belal Ibrahim
 Author URI: https://github.com/belal-i
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.1.3-dev
-Tags: one-column
+Version: 1.2.0-beta-1
+Tags: two-columns
 Text Domain: frutiger-aero
 Requires at least: 4.5
 Tested up to: 6.7
@@ -1067,4 +1067,54 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+/* Sidebar widget
+--------------------------------------------- */
+#sidebar-primary.sidebar {
+	margin: 20px 20px 20px 0;
+	padding: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	box-shadow: 0 4px 24px rgba(51,170,255,0.2);
+	background: #f1f4fa;
+}
+
+#sidebar-primary.sidebar h2,
+#sidebar-primary.sidebar h3 {
+	margin-top: 0;
+	color: #33aaff;
+	border-bottom: 1px dotted #88ccea;
+	padding-bottom: 4px;
+	font-size: 1.1em;
+}
+
+#sidebar-primary.sidebar ul {
+	list-style: square inside;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+#sidebar-primary.sidebar li {
+	margin-bottom: 8px;
+	padding: 2px 0;
+}
+
+#sidebar-primary.sidebar a:hover {
+	color: #33aaff;
+	background: #e0f5ff;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.content-wrapper {
+	display: flex;
+}
+
+.sidebar {
+	max-width: 250px;
+}
+
+.site-main {
+	flex: 1;
 }
