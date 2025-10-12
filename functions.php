@@ -167,7 +167,7 @@ add_action( 'wp_enqueue_scripts', 'frutiger_aero_custom_background' );
 
 function frutiger_aero_widgets_init() {
 	register_sidebar( array(
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar',
 		'name'          => __( 'Sidebar', 'frutiger-aero'),
 		'description'   => __( 'Sidebar' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',

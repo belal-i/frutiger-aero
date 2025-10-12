@@ -1071,7 +1071,7 @@ textarea {
 
 /* Sidebar widget
 --------------------------------------------- */
-#sidebar-primary.sidebar {
+#sidebar.sidebar {
 	margin: 20px 20px 20px 0;
 	padding: 16px;
 	border: 1px solid rgba(0, 0, 0, 0.7);
@@ -1080,8 +1080,8 @@ textarea {
 	background: #f1f4fa;
 }
 
-#sidebar-primary.sidebar h2,
-#sidebar-primary.sidebar h3 {
+#sidebar.sidebar h2,
+#sidebar.sidebar h3 {
 	margin-top: 0;
 	color: #33aaff;
 	border-bottom: 1px dotted #88ccea;
@@ -1089,18 +1089,18 @@ textarea {
 	font-size: 1.1em;
 }
 
-#sidebar-primary.sidebar ul {
+#sidebar.sidebar ul {
 	list-style: square inside;
 	margin: 0;
 	padding: 0 0 0 10px;
 }
 
-#sidebar-primary.sidebar li {
+#sidebar.sidebar li {
 	margin-bottom: 8px;
 	padding: 2px 0;
 }
 
-#sidebar-primary.sidebar a:hover {
+#sidebar.sidebar a:hover {
 	color: #33aaff;
 	background: #e0f5ff;
 	border-radius: 2px;
@@ -1109,12 +1109,40 @@ textarea {
 
 .content-wrapper {
 	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
 }
 
+.widget-area,
 .sidebar {
-	max-width: 250px;
+	order: 2;
+	width: 100%;
 }
 
+#primary,
 .site-main {
-	flex: 1;
+	order: 1;
+	width: 100%;
+	min-width: 0;
+}
+
+@media (min-width: 768px) {
+	.content-wrapper {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.widget-area,
+	.sidebar {
+		order: 1;
+		flex: 0 0 250px;
+		max-width: 250px;
+		margin-right: 1.5rem;
+	}
+
+	#primary,
+	.site-main {
+		order: 2;
+		flex: 1 1 0;
+	}
 }
