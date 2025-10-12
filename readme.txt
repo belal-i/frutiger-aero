@@ -5,7 +5,7 @@ Theme URI: https://github.com/belal-i/frutiger-aero
 Author: Belal Ibrahim
 Author URI: https://github.com/belal-i
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.2.0-rc-1
+Version: 1.2.0
 Tags: two-columns
 Requires at least: 4.5
 Tested up to: 6.7
@@ -30,6 +30,10 @@ A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.2.0 - October 13 2025
+* Add support for sidebar widgets.
+* Update meta/copyright info.
 
 = 1.1.2 - March 21 2025
 * Add visual highlighting when navigating mobile menu with the keyboard.
