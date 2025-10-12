@@ -9,7 +9,7 @@
 
 if ( ! defined( 'FRUTIGER_AERO_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'FRUTIGER_AERO_VERSION', '1.2.0-beta-1' );
+	define( 'FRUTIGER_AERO_VERSION', '1.2.0-rc-1' );
 }
 
 if ( ! defined( 'FRUTIGER_AERO_DEFAULT_COLOR_HEX' ) ) {
@@ -167,7 +167,7 @@ add_action( 'wp_enqueue_scripts', 'frutiger_aero_custom_background' );
 
 function frutiger_aero_widgets_init() {
 	register_sidebar( array(
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar',
 		'name'          => __( 'Sidebar', 'frutiger-aero'),
 		'description'   => __( 'Sidebar' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
