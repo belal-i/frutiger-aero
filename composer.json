@@ -1,5 +1,5 @@
 {
-    "name": "saint-hilaire/frutiger-aero",
+    "name": "belal-i/frutiger-aero",
     "type": "wordpress-theme",
     "description": "A theme inspired by the Frutiger Aero aesthetic of the early 2000s.",
     "keywords": [
@@ -7,12 +7,12 @@
         "Frutiger Aero",
         "Themes"
     ],
-    "homepage": "https://github.com/saint-hilaire/frutiger-aero",
+    "homepage": "https://github.com/belal-i/frutiger-aero",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "Brian St. Hilaire",
-            "homepage": "https://sainthilarious.dev"
+            "name": "Belal Ibrahim",
+            "homepage": "https://github.com/belal-i"
         }
     ],
     "require": {
@@ -30,7 +30,7 @@
         "make-pot": "wp i18n make-pot . languages/_s.pot"
     },
     "support": {
-        "issues": "https://github.com/saint-hilaire/frutiger-aero/issues",
-        "source": "https://github.com/saint-hilaire/frutiger-aero"
+        "issues": "https://github.com/belal-i/frutiger-aero/issues",
+        "source": "https://github.com/belal-i/frutiger-aero"
     }
 }

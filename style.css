@@ -1,11 +1,11 @@
 /*!
 Theme Name: Frutiger Aero
-Theme URI: https://github.com/saint-hilaire/frutiger-aero
-Author: Brian St. Hilaire
-Author URI: https://sainthilarious.dev
+Theme URI: https://github.com/belal-i/frutiger-aero
+Author: Belal Ibrahim
+Author URI: https://github.com/belal-i
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.1.2
-Tags: one-column
+Version: 1.2.0
+Tags: two-columns
 Text Domain: frutiger-aero
 Requires at least: 4.5
 Tested up to: 6.7
@@ -520,7 +520,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: #33aaff;
 }
 
 a:hover,
@@ -1067,4 +1067,82 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+/* Sidebar widget
+--------------------------------------------- */
+#sidebar.sidebar {
+	margin: 20px 20px 20px 0;
+	padding: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	box-shadow: 0 4px 24px rgba(51,170,255,0.2);
+	background: #f1f4fa;
+}
+
+#sidebar.sidebar h2,
+#sidebar.sidebar h3 {
+	margin-top: 0;
+	color: #33aaff;
+	border-bottom: 1px dotted #88ccea;
+	padding-bottom: 4px;
+	font-size: 1.1em;
+}
+
+#sidebar.sidebar ul {
+	list-style: square inside;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+#sidebar.sidebar li {
+	margin-bottom: 8px;
+	padding: 2px 0;
+}
+
+#sidebar.sidebar a:hover {
+	color: #33aaff;
+	background: #e0f5ff;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.content-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.widget-area,
+.sidebar {
+	order: 2;
+	width: 100%;
+}
+
+#primary,
+.site-main {
+	order: 1;
+	width: 100%;
+	min-width: 0;
+}
+
+@media (min-width: 768px) {
+	.content-wrapper {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.widget-area,
+	.sidebar {
+		order: 1;
+		flex: 0 0 250px;
+		max-width: 250px;
+		margin-right: 1.5rem;
+	}
+
+	#primary,
+	.site-main {
+		order: 2;
+		flex: 1 1 0;
+	}
 }

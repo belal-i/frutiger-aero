@@ -1,9 +1,9 @@
-# Copyright (C) 2024 Brian St. Hilaire
+# Copyright (C) 2024 - 2025 Belal Ibrahim
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: frutiger-aero 1.0.0\n"
-"Report-Msgid-Bugs-To: https://github.com/saint-hilaire/frutiger-aero/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/belal-i/frutiger-aero/issues\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgid "frutiger-aero"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://github.com/saint-hilaire/frutiger-aero"
+msgid "https://github.com/belal-i/frutiger-aero"
 msgstr ""
 
 #. Description of the theme
@@ -27,11 +27,11 @@ msgid "A theme inspired by the Frutiger Aero aesthetic of the early 2000s."
 msgstr ""
 
 #. Author of the theme
-msgid "Brian St. Hilaire"
+msgid "Belal Ibrahim"
 msgstr ""
 
 #. Author URI of the theme
-msgid "https://sainthilarious.dev"
+msgid "https://github.com/belal-i"
 msgstr ""
 
 #: 404.php:18
