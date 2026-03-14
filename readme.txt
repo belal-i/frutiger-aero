@@ -5,7 +5,7 @@ Theme URI: https://github.com/belal-i/frutiger-aero
 Author: Belal Ibrahim
 Author URI: https://github.com/belal-i
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.2.0
+Version: 1.2.1-rc-1
 Tags: two-columns
 Requires at least: 4.5
 Tested up to: 6.7
