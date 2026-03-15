@@ -5,10 +5,10 @@ Theme URI: https://github.com/belal-i/frutiger-aero
 Author: Belal Ibrahim
 Author URI: https://github.com/belal-i
 Description: A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
-Version: 1.2.0
+Version: 1.2.1
 Tags: two-columns
 Requires at least: 4.5
-Tested up to: 6.7
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,6 +30,9 @@ A theme inspired by the Frutiger Aero aesthetic of the early 2000s.
 Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.2.1 - March 15 2026
+* If the sidebar widget is active, show it on all pages.
 
 = 1.2.0 - October 13 2025
 * Add support for sidebar widgets.
@@ -84,7 +87,7 @@ Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpac
 
 == Copyright ==
 
-Frutiger Aero WordPress Theme, Copyright 2024 - 2025 Belal Ibrahim
+Frutiger Aero WordPress Theme, Copyright 2024 - 2026 Belal Ibrahim
 Frutiger Aero is distributed under the terms of the GNU GPLv2.
 
 This program is free software: you can redistribute it and/or modify

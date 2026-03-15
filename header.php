@@ -52,3 +52,5 @@
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+	<div class="content-wrapper">
