@@ -1,4 +1,4 @@
-# Copyright (C) 2024 - 2025 Belal Ibrahim
+# Copyright (C) 2024 - 2026 Belal Ibrahim
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""

@@ -84,7 +84,7 @@ Frutiger Aero includes support for WooCommerce and for Infinite Scroll in Jetpac
 
 == Copyright ==
 
-Frutiger Aero WordPress Theme, Copyright 2024 - 2025 Belal Ibrahim
+Frutiger Aero WordPress Theme, Copyright 2024 - 2026 Belal Ibrahim
 Frutiger Aero is distributed under the terms of the GNU GPLv2.
 
 This program is free software: you can redistribute it and/or modify
