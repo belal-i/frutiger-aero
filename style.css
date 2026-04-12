@@ -771,6 +771,15 @@ textarea {
 	display: block;
 }
 
+.main-navigation.toggled ul ul {
+	position: static;
+	left: auto;
+	display: block;
+	box-shadow: none;
+	float: none;
+	z-index: auto;
+}
+
 @media screen and (min-width: 37.5em) {
 
 	.menu-toggle {
