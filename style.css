@@ -803,6 +803,25 @@ textarea {
 	text-align: center;
 }
 
+#site-navigation ul {
+	display: none;
+}
+
+#site-navigation.toggled ul {
+	display: block;
+}
+
+#site-navigation ul ul {
+	display: block;
+}
+
+/*
+Optional indentation
+#site-navigation ul ul {
+	padding-left: 20px;
+}
+* */
+
 .site-main .comment-navigation,
 .site-main
 .posts-navigation,

@@ -32,7 +32,7 @@
 	}
 
 	// Toggle the .toggled class and the aria-expanded value each time the button is clicked.
-	button.addEventListener( 'focus', function() {
+	button.addEventListener( 'click', function() {
 		siteNavigation.classList.toggle( 'toggled' );
 
 		if ( button.getAttribute( 'aria-expanded' ) === 'true' ) {
@@ -65,9 +65,9 @@
 	}
 
 	// Toggle focus each time a menu link with children receive a touch event.
-	for ( const link of linksWithChildren ) {
-		link.addEventListener( 'touchstart', toggleFocus, false );
-	}
+	//for ( const link of linksWithChildren ) {
+	//	link.addEventListener( 'touchstart', toggleFocus, false );
+	//}
 
 	/**
 	 * Sets or removes .focus class on an element.
