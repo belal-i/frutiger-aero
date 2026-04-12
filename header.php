@@ -45,8 +45,10 @@
 				class="menu-toggle"
 				aria-controls="primary-menu"
 				aria-expanded="false"
-				aria-label="Open menu">
-				<span class="hamburger"></span>
+				aria-label="Toggle navigation">
+				<span></span>
+				<span></span>
+				<span></span>
 			</button>
 			<?php
 			wp_nav_menu(
