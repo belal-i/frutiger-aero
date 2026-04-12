@@ -782,6 +782,24 @@ textarea {
 	}
 }
 
+.hamburger::before,
+.hamburger::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 3px;
+	background-color: #000;
+	left: 0;
+}
+
+.hamburger::before {
+	top: -8px;
+}
+
+.hamburger::after {
+	top: 8px;
+}
+
 .site-main .comment-navigation,
 .site-main
 .posts-navigation,

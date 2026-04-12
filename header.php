@@ -44,8 +44,9 @@
 			<button
 				class="menu-toggle"
 				aria-controls="primary-menu"
-				aria-expanded="false">
-				<?php esc_html_e( 'Primary Menu', 'frutiger-aero' ); ?>
+				aria-expanded="false"
+				aria-label="Open menu">
+				<span class="hamburger"></span>
 			</button>
 			<?php
 			wp_nav_menu(
