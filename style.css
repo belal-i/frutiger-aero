@@ -877,6 +877,10 @@ textarea {
 	margin: 0 0 1.5em;
 }
 
+.entry-footer span {
+	margin-right: 1.5em;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
