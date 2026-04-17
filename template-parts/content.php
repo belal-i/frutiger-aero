@@ -33,20 +33,36 @@
 
 	<div class="entry-content">
 		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'frutiger-aero' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
+		if ( is_singular() ) :
+			the_content(
+				sprintf(
+					wp_kses(
+						/* translators: %s: Name of current post. Only visible to screen readers */
+						__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'frutiger-aero' ),
+						array(
+							'span' => array(
+								'class' => array(),
+							),
+						)
+					),
+					wp_kses_post( get_the_title() )
+				)
+			);
+		else :
+			the_excerpt();
+			?>
+			<p>
+				<a href="<?php echo esc_url( get_permalink() ); ?>">
+					<?php
+					printf(
+						esc_html__( 'Read more %s', 'frutiger-aero' ),
+						'→',
+					);
+					?>
+				</a>
+			</p>
+		<?php
+		endif;
 
 		wp_link_pages(
 			array(
